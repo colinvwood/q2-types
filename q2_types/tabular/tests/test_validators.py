@@ -12,7 +12,7 @@ import pandas as pd
 
 from qiime2.plugin import ValidationError
 
-from q2_types.tabular._deferred_setup._validators  import (
+from q2_types.tabular._deferred_setup._validators import (
     validate_all_dist_columns_present,
     validate_unique_subjects_within_group,
 )
