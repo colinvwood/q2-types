@@ -120,7 +120,11 @@ setup(
         'q2_types.reference_db.tests':
             ['data/*', 'data/*/*', 'data/*/*/*'],
         'q2_types.profile_hmms.tests':
-            ['data/*', 'data/*/*']
+            ['data/*', 'data/*/*'],
+        'q2_stats.tabular.tests': [
+            'data/*', 'data/faithpd_timedist/*', 'data/faithpd_refdist/*',
+            'data/empty_data_dist/*'
+        ],
     },
     zip_safe=False,
 )
